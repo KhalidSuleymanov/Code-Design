@@ -1,0 +1,341 @@
+/* Top-bar navbar class start */
+.top-bar {
+    background-color: white;
+    padding: 15px;
+
+}
+
+.paragraf {
+    font-size: 15px;
+}
+
+/* İcon and Links start */
+.icon {
+    font-size: 20px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon a {
+    color: #000;
+}
+
+.search {
+    margin-right: 250px;
+    font-size: 20px;
+}
+
+/* İcon and Links start */
+/* Top-bar navbar class start */
+
+/* first image class start */
+.image {
+    background-image: url(./Image/Code2.jpg);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 1rem;
+    display: flex;
+}
+
+/* navbar start */
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-left: 4rem;
+}
+
+.image .navbar li {
+    display: flex;
+    color: #fff;
+    display: inline-block;
+    margin: 1rem 0 0 5rem;
+    justify-content: center;
+    font-size: larger;
+}
+
+/* navbar ends */
+/* first image class end */
+/* Button class start */
+button {
+    background-color: #f9dd00;
+    padding: 20px 15px;
+    border: none;
+}
+
+/* Button class end */
+
+/* Text style and cards class start */
+/* First text start */
+.text p {
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.text :first-child {
+    font-size: 70px;
+    margin-left: 175px;
+    margin-top: 30px;
+}
+
+.second-text {
+    font-size: 45px;
+    margin-left: 175px;
+}
+
+.first-text {
+    margin-top: 30px;
+    margin-left: 175px;
+    font-size: 20px;
+}
+
+.second-text1 {
+    margin-left: 175px;
+    font-size: 20px;
+}
+
+/* First text start */
+
+/* Cards class start */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+/* First card started */
+.card1 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card1:hover {
+    background-color: purple;
+}
+
+/* First card end */
+/* Second card started */
+.card2 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card2:hover {
+    background-color: yellow;
+}
+
+/* Second card end */
+
+/* Third card started */
+.card3 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card3:hover {
+    background-color: green;
+}
+
+/* Third card end */
+
+/* Fourth card started */
+.card4 {
+    padding: 20px;
+    border: 1px black solid;
+    background-color: white;
+    width: 47%;
+}
+
+.card4:hover {
+    background-color: blue;
+}
+
+/* Fourth card end */
+
+
+.services {
+    display: flex;
+}
+
+.first-card {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.second-card {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.third-card {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.fourth-card {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+/* Cards class end */
+
+/* Text style and cards class end */
+
+/* Next text class start */
+.third-text {
+    padding: 8rem 0 0 11rem;
+    font-size: 50px;
+}
+
+.line1 {
+    padding-top: 1.5rem;
+    padding-left: 11rem;
+}
+
+.paragraf2 {
+    width: 50%;
+    padding-left: 11rem;
+    font-size: larger;
+    padding-top: 1.5rem;
+}
+
+/* Next text class end */
+
+/* Second cards and information class started */
+
+/* First image and information class started */
+.image-upper {
+    display: flex;
+}
+
+.image-txt1 {
+    display: flex;
+    border: solid 1px #fff;
+    padding: 5rem;
+}
+
+.image-txt1 img {
+    width: 200px;
+    height: 200px;
+}
+
+.img1-right1 h1 {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.img1-right1 p {
+    margin-left: 2rem;
+    width: 70%;
+}
+
+.img1-right1 h4 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: large;
+}
+
+/* First image and information class end */
+
+/* Second image and information class started */
+.image-txt2 {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.image-txt2 img {
+    width: 200px;
+    height: 200px;
+}
+
+.img2-right2 h1 {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.img2-right2 p {
+    margin-left: 2rem;
+    width: 70%;
+}
+
+.img2-right2 h4 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: large;
+}
+
+/* Second image and information class end */
+.image-lower {
+    display: flex;
+}
+
+/* Third image and information class started */
+.image-txt3 {
+    display: flex;
+    margin-left: 5rem;
+}
+
+.image3-left3 img {
+    width: 200px;
+    height: 200px;
+}
+
+.img3-right3 h1 {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.img3-right3 p {
+    margin-left: 2rem;
+    width: 70%;
+}
+
+.img3-right3 h4 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: large;
+}
+
+/* Third image and information class end  */
+
+/* Fourth image and information class started  */
+.image-txt4 {
+    display: flex;
+    margin-right: 4rem;
+}
+
+.image4-left4 img {
+    width: 200px;
+    height: 200px;
+}
+
+.img4-right4 h1 {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.img4-right4 p {
+    margin-left: 2rem;
+    width: 70%;
+}
+
+.img4-right4 h4 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: large;
+}
+
+/* Fourth image and information class end */
+
+/* Second cards and information class end */
